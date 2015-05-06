@@ -1,0 +1,21 @@
+http://wac.7725.edgecastcdn.net/807725/website/wp-content/uploads/2014/04/fc333.jpg 
+
+^ farcry 3
+
+
+Libraries have been installed in 
+/tmp/pear/temp/pear-build-rootIAENly/mongo-1.6.7/modules
+
+sudo cat /etc/php5/apache2/ cli/ mods-available/
+
+sudo cat /etc/php5/apache2/ conf.d/ php.ini
+
+sudo "extension=mongo.so" > /etc/php5/apache2/php.ini 
+
+nano /etc/php5/apache2/php.ini
+
+sudo apache2ctl restart
+
+service apache2 reload
+
+"extension=mongo.so" > /etc/php5/apache2/php.ini
